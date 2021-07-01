@@ -34,7 +34,7 @@ function newElement() {
     var t = document.createTextNode(inputValue);
 
     li.appendChild(t);
-    if ("inputValue === ''") {
+    if (inputValue === '') {
         alert("You must write something!");
     } else {
         document.getElementById("myUL")
