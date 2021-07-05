@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <link rel="stylesheet" href="style.css">
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Grocery Bud </title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-  
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Grocery Bud </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"  rel="stylesheet">
+
 </head>
+
 <body>
-    <div id="container">
-    <h1>Grocery List</h1>
-    <input id="input" placeholder="e.g: eggs"></input>
-    <button onclick="newElement();">submit</button>
 
-<ol id=myUL>
-<div class=li>
-</div>
+    <div class="container">
 
-</ol>
+        <h1>Grocery List</h1>
+        <input id="myInput" placeholder="e.g: eggs"></input>
+        <button onclick="newElement();">submit</button>
 
-<button onclick="deletAll();">clearitem</button>
-  <script src="app.js"></script>
+        <ul id=myUL>
+
+        </ul>
+
+        <button class="clearBtn" onclick="deletAll();">clearitem</button>
+    </div>
+
+    <script src="app.js"></script>
 </body>
+
 </html>
