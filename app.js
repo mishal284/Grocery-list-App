@@ -1,6 +1,5 @@
 const container = document.getElementById("myUL"); //get the list of groceries//
-var myNodelist = document
-    .getElementsByTagName("li");
+var myNodelist = container;
 var i;
 for (i = 0; i < myNodelist.length; i++) {
     var span = document.createElement("SPAN");
