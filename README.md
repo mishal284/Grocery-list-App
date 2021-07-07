@@ -9,7 +9,7 @@
 - Mahhnoor Khan
 - Mishal Iftikhar
 ## Technologies used:
--HTML
+- HTML
 - CSS
 - JavaScript 
 ## Software needed for code to run:
